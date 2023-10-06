@@ -8,7 +8,7 @@ cp ./model.xyz $dirname
 cp ./nep.txt $dirname
 cp ./run.in $dirname
 cd $dirname
-~/GPUMD-3.8/src/gpumd < run.in > outputfile
+/kaggle/working/bikash/gpm/src/gpumd < run.in > outputfile
 wait $!
 cd $workdir
 }
