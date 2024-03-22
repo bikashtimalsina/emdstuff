@@ -1,0 +1,15 @@
+type          3 Si C O # this is a mandatory keyword
+version       4       # default
+cutoff        6 2     # default
+n_max         12 9    # default
+basis_size    12 12     # default
+l_max         4 2 0   # default
+neuron        60      # default
+lambda_1      0.05    # default
+lambda_2      0.05    # default
+lambda_e      1.0     # default
+lambda_f      3.0     # default
+lambda_v      1.0     # default
+batch         400    # default
+population    200      # default
+generation    1500000  # default
